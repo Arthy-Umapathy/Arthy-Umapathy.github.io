@@ -1,6 +1,9 @@
 import React from "react";
 import { Fragment } from "react/cjs/react.production.min";
 
+/*
+  Fixed Navigation Bar to navigate between different sections with the single page component.
+*/
 export default function Navbar() {
   return (
     <Fragment>

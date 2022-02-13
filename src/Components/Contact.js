@@ -2,6 +2,11 @@ import React from "react";
 import { Card, CardDeck } from "react-bootstrap";
 import Slide from "react-reveal/Slide"
 
+/*
+  Section to provide my information along with the google map of my location.
+  Used iframe from google maps shared embeded text.
+ */
+
 export default function Contact() {
   return (
     <section id="contact" className="container">
