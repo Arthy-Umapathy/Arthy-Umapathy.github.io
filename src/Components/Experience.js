@@ -5,6 +5,11 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
+/*
+  Timeline based Experience section. 
+  Used Vertical timeline component for better visuals.
+*/
+
 export default function Experience() {
   return (
     <section id="experience">

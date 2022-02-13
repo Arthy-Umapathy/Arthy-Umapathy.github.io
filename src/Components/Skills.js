@@ -1,10 +1,14 @@
 import React, { Fragment } from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { Card } from "react-bootstrap";
-import SkillsData from "./SkillsData";
+import {SkillsData} from "../Data";
 import Fade from "react-reveal/Fade";
 
-function Skills() {
+/*
+  Comprises of some of my technical skills.
+  Used accordion categorizing and displaying various skills.
+*/
+export default function Skills() {
   return (
     <section id="skills" className="container">
       <Fragment>
@@ -41,4 +45,3 @@ function Skills() {
     </section>
   );
 }
-export default Skills;

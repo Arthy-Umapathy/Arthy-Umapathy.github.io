@@ -1,4 +1,37 @@
-const ProjectData=[
+export const SkillsData = [
+    {
+      id: "1",
+      category: "Languages",
+      skills:"Java, Python, JavaScript, SQL, NodeJS"
+    },
+{
+    id:"2",
+    category:"Databases",
+    skills:"MySQL, PL/SQL, Oracle Database, MongoDB, Neo4j"
+},
+{
+    id:"3",
+    category:"Web Technologies",
+    skills:"ReactJS, Flask, Node, AngularJS, HTML 5, CSS 3"
+},{
+    id:"4",
+    category:"Cloud Technologies",
+    skills:"Amazon web services, Google Cloud Platform "
+},{
+    id:"5",
+    category:"Frameworks & Libraries",
+    skills:"MVC Architecture, REST APIs, Numpy, Pandas, Express, Bootstrap, JSON"
+},{
+    id:"6",
+    category:"DevOps",
+    skills:" CI/CD, Git, GitHub, GitLab, Docker"
+},{
+    id:"7",
+    category:"Software Tools",
+    skills:"Eclipse, IntelliJ IDEA, Visual Studio Code, GitHub, Dreamweaver, Android Studio, XAMPP, WampServer, Heroku, Jira"
+},]
+
+export const ProjectData=[
     {
         id: "1",
         title: "Dalhousie Hockey League (DHL) System ",
@@ -30,4 +63,3 @@ const ProjectData=[
         details:"Designed a website using XAMPP to manage donor and customer details and retrieved data using PHP.Used JavaScript and HTML to register and check the availability of blood.Created 3 modules (acceptor, donor, and availability camps) linked them using HTML and stored data in MySQL database.Achieved efficiency of ~95% and selected as the winner of the project club."
       },
 ]
-export default ProjectData;

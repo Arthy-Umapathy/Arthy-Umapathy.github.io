@@ -3,6 +3,11 @@ import Bounce from "react-reveal/Flip";
 import { Card, CardDeck } from "react-bootstrap";
 import Slide from "react-reveal/Slide"
 
+/*
+  Comprises of small intro and my picture.
+  Displayed through cards and added some animations for visual effects.
+*/
+
 export default function Intro() {
   return (
     <section id="intro">

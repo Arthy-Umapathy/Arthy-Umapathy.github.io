@@ -1,7 +1,11 @@
 import React from "react";
-import "./Project.css";
-import ProjectData from "./ProjectData";
+import "../App.css";
+import {ProjectData} from "../Data";
 
+/*
+  Small description of some of my projects.
+  Used Card Flip display to view the projects.
+*/
 export default function Projects() {
   return (
     <section id="projects" className="card container-fluid p-3 my-3 ">
