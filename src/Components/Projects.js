@@ -8,12 +8,12 @@ import {ProjectData} from "../Data";
 */
 export default function Projects() {
   return (
-    <section id="projects" className="card container-fluid p-3 my-3 ">
+    <section id="projects">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <h1 style={{ fontFamily: "Brush Script MT" }}>Application Built</h1>
         <div
-          className="container card-deck text-center lg:px-40"
-          style={{ display: "flex", flexDirection: "row" }}
+          className="container card-deck"
+          style={{ display: "flex", flexDirection: "inherit" }}
         >
           {ProjectData.map((item) => (
             <div className="flip-card p-3">

@@ -26,25 +26,26 @@ export default function Intro() {
                     </Card.Title>
 
                     <Card.Text>
+                      <h5>When did it start?</h5>
+                      <p>
                       Ever since my school days, I had a passion for software
                       development. Overcoming my parent's will to become a
-                      medical student, I became a Computer Engineer. During my
+                      medical student, I became a Computer Engineer. <h5>How its going?</h5>During my
                       undergraduate studies, I grabbed my chance to gain
                       industrial experience in Accenture. Infosys and HCL where
                       I learned Java, C, C++, Python, and databases like Oracle,
                       SQL. This passion led me to pursue my Master's at
                       Dalhousie University. Here I was exposed to many new
                       technologies that I didn't have a chance to work on
-                      earlier like ReactJS, AWS, Flask, etc. I became more
-                      fascinated by the new technologies that I was learning
-                      during the course term. There are still many new languages
+                      earlier like ReactJS, AWS, Flask, etc. There are still many new languages
                       and frameworks to learn about and I believe that my
                       passion for learning new stuff would definitely help me to
-                      grow my learning curve much better. My strength is that I
+                      grow my learning curve much better. <h5>What I want?</h5>My strength is that I
                       am a self-learner and my curiosity keeps me going on. So I
                       am looking for a challenging career that would help me
                       portray my technical and analytical skills and enhance my
                       knowledge and skills.
+                      </p>
                     </Card.Text>
                     </Slide>
                   </Card.Body>
